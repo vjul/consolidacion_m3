@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat empresarial</title>
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid g-5">
+            <a class="navbar-brand" href="#">Chat empresarial</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Página principal</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Preguntas frecuentes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Manuales y tutoriales</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Noticias</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Calendario</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Perfil de usuario</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Organigrama</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Chat</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <aside class="chat">
+            <div>
+                <input type="text" class="form-control border-primary" placeholder="Buscar" />
+                <button class="btn btn-primary mt-2 mb-2">Buscar chat</button>
+            </div>
+            <div class="chat_item">
+                <img class="item_img" src="./assets/img/maria.jpg">
+                <div class="item_text">
+                    <h4 class="item_name">María</h4>
+                    <p class="item_status">dolor sit amet</p>
+                    <p class="item_status">Activa ahora</p>
+                </div>
+            </div>
+            <div class="chat_item--alberto">
+                <img class="item_img" src="./assets/img/alberto.jpg">
+                <div class="item_text">
+                    <h4 class="item_name--bold" onclick="this.classList.replace('item_name--bold', 'item_name');">
+                        Alberto</h4>
+                    <p class="item_status">Lorem ipsum</p>
+                    <p class="item_status">Última vez 16.15</p>
+                </div>
+            </div>
+            <div class="chat_item">
+                <img class="item_img" src="./assets/img/cristian.jpg">
+                <div class="item_text">
+                    <h4 class="item_name">Cristian</h4>
+                    <p class="item_status">dolor sit amet</p>
+                    <p class="item_status">Última vez 11.05</p>
+                </div>
+            </div>
+            <div class="chat_item">
+                <img class="item_img" src="./assets/img/Gonzalo.jpg">
+                <div class="item_text">
+                    <h4 class="item_name">Gonzalo</h4>
+                    <p class="item_status">consectetur adipisicing elit.</p>
+                    <p class="item_status">Última vez 12.48</p>
+                </div>
+            </div>
+            <div class="chat_item">
+                <img class="item_img" src="./assets/img/ignacio.jpg">
+                <div class="item_text">
+                    <h4 class="item_name">Ignacio</h4>
+                    <p class="item_status">Quis maxime voluptates</p>
+                    <p class="item_status">Última vez 13.30</p>
+                </div>
+            </div>
+            <div class="chat_item">
+                <img class="item_img" src="./assets/img/juan_pablo.jpg">
+                <div class="item_text">
+                    <h4 class="item_name">Juan Pablo</h4>
+                    <p class="item_status">nihil similique quas</p>
+                    <p class="item_status">Última vez 31 agosto</p>
+                </div>
+            </div>
+            <div class="chat_item">
+                <img class="item_img" src="./assets/img/juanita.jpg">
+                <div class="item_text">
+                    <h4 class="item_name">Juanita</h4>
+                    <p class="item_status">impedit vel quod illum</p>
+                    <p class="item_status">Última vez 10 junio</p>
+                </div>
+            </div>
+            <div class="chat_item">
+                <img class="item_img" src="./assets/img/Magdalena.jpg">
+                <div class="item_text">
+                    <h4 class="item_name">Magdalena</h4>
+                    <p class="item_status">fugiat quae, laboriosam</p>
+                    <p class="item_status">Última vez Ayer</p>
+                </div>
+            </div>
+            <div class="chat_item">
+                <img class="item_img" src="./assets/img/maria_jose.jpg">
+                <div class="item_text">
+                    <h4 class="item_name">Maria Jose</h4>
+                    <p class="item_status">vitae voluptate voluptatum laborum</p>
+                    <p class="item_status">Última vez 15 agosto</p>
+                </div>
+            </div>
+        </aside>
+        <div class="container main">
+            <div class="current_user">
+                <img class="item_img_chat" src="./assets/img/maria.jpg" alt="">
+                <div class="item_text">
+                    <h4 class="item_name">María</h4>
+                    <p class="item_status">en línea</p>
+                </div>
+            </div>
+            <div>
+                <p class="chat_otro mt-2 mb-2 border border-primary-subtle rounded">Hola, cómo estás?</p>
+                <p class="chat_yo mt-2 mb-2 border border-primary-subtle rounded">Bien gracias, y tú?</p>
+                <p class="chat_otro mt-2 mb-2 border border-primary-subtle rounded">Bien también. Terminaste la tarea del
+                    bootcamp?</p>
+                <p class="chat_yo mt-2 mb-2 border border-primary-subtle rounded">No... estoy estancado en algo</p>
+            </div>
+            <div class=" div_mensaje">
+                <input type="text" class="form-control border-primary col-md-4" placeholder="Escribe tu mensaje" />
+                <button class="btn btn-primary mt-2 col-md-4">Enviar</button>
+                <div class="dropdown col-md-4 mt-2">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Adjuntar
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Adjuntar imagen</a></li>
+                        <li><a class="dropdown-item" href="#">Adjuntar video</a></li>
+                        <li><a class="dropdown-item" href="#">Adjuntar documento</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,109 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", "open-sans";
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+.chat {
+  width: 300px;
+  display: flex;
+  background-color: #fff;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.chat_item {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #ccc;
+  cursor: pointer;
+  justify-content: flex-start;
+}
+
+.chat_item--alberto {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #ccc;
+  cursor: pointer;
+  justify-content: flex-start;
+}
+
+.item_img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.item_img_chat {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.item_text {
+  display: flex;
+  flex-direction: column;
+}
+.item_name {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: normal;
+}
+.item_name--bold {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: bolder;
+}
+.item_status {
+  margin: 0;
+  font-size: 0.7rem;
+  color: #666;
+}
+
+.item_icons {
+  padding: 0;
+  margin: 0 0 0 50px;
+}
+
+.main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  background-color: #e8ebe4;
+  height: 40rem;
+}
+.chat_otro {
+  background-color: white;
+  text-align: start;
+  max-width: 50%;
+  padding: 1rem;
+}
+.chat_yo {
+  text-align: end;
+  align-content: end;
+  padding: 1rem;
+}
+.div_mensaje {
+  margin-top: 8rem;
+}
+.current_user {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #ccc;
+  cursor: pointer;
+  justify-content: flex-start;
+}
