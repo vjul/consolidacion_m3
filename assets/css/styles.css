@@ -71,6 +71,20 @@ body {
   color: #666;
 }
 
+.hora_mensaje_left {
+  margin: 0;
+  font-size: 0.7rem;
+  color: #666;
+  text-align: start;
+}
+
+.hora_mensaje_right {
+  margin: 0;
+  font-size: 0.7rem;
+  color: #666;
+  text-align: end;
+}
+
 .item_icons {
   padding: 0;
   margin: 0 0 0 50px;
@@ -90,12 +104,13 @@ body {
   padding: 1rem;
 }
 .chat_yo {
+  background-color: rgb(207, 222, 222);
   text-align: end;
   align-content: end;
   padding: 1rem;
 }
 .div_mensaje {
-  margin-top: 8rem;
+  margin-top: 1rem;
 }
 .current_user {
   width: 100%;
@@ -106,4 +121,7 @@ body {
   border-bottom: 1px solid #ccc;
   cursor: pointer;
   justify-content: flex-start;
+}
+.btn_enviar {
+  max-width: 6.5rem;
 }
